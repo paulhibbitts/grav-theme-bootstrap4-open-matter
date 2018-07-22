@@ -19,7 +19,7 @@
             <ul class="navbar-nav">
                 {% for page in pages.children.visible %}
                 {# Supress home menu link - hibbittsdesign.org #}
-                {% if not(theme_var('hidehomemenulink') and page.home()) %}
+                  {% if not(theme_var('hidehomemenulink') and page.home()) %}
                     {# Set all pages to use active page style - hibbittsdesign.org#}
                     {% set current_page = 'active' %}
                     {% if config.themes.bootstrap4.dropdown.enabled and page.children.visible.count > 0 %}
@@ -51,7 +51,7 @@
                 {# custom menu items check and display - hibbittsdesign.org #}
                 {% if theme_var('displaycustommenus.enabled') %}
 
-                  {% for mitem in theme_var('menu') %}
+                  {% for mitem in theme_var('custommenu') %}
                     <li class="nav-item active" >
                       <a class="nav-link" href="{{ mitem.url }}" target="{{ mitem.target }}">
                         {% if mitem.icon %}
