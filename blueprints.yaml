@@ -1,6 +1,6 @@
 name: Bootstrap4 Open Matter
 version: 0.9.0
-description: "A customized version of the Bootstrap 4 theme, with additional features to support open and collaborative open materials."
+description: "A customized version of the Bootstrap 4 theme, with additional features to support open and collaborative open materials - inside or outside of other platforms (i.e. LMS)."
 icon: unlock
 author:
  name: Hibbitts Design
