@@ -61,8 +61,8 @@ If you want to set Bootstrap4 Open Matter as the default theme, you can do so by
 
 * Navigate to `/your/site/grav/user/config`.
 * Open the **system.yaml** file.
-* Change the `theme:` setting to `theme: bs4-open-course-matter`.
+* Change the `theme:` setting to `theme: bootstrap4-open-course`.
 * Save your changes.
 * Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in Terminal and typing `bin/grav clear-cache`.
 
-Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **bs4-open-matter** folder.
+Once this is done, you should be able to see the new theme on the frontend. Keep in mind any customizations made to the previous theme will not be reflected as all of the theme and templating information is now being pulled from the **bootstrap4-open-course** folder.
