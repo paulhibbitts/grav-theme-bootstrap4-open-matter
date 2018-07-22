@@ -2,7 +2,7 @@
 
 ![Bootstrap4 Open Matter](assets/readme_1.png)
 
-Bootstrap4 Open Matter theme is a [Grav](http://github.com/getgrav/grav) inherited theme based on the [Bootstrap4](https://github.com/trilbymedia/grav-theme-bootstrap4) theme. In addition for built-in support for the Git Sync Plugin, a 'Chromeless' display mode (via a URL parameter) is provided to better embed Grav page content into other systems (i.e. LMS).
+Bootstrap4 Open Matter theme is a [Grav](http://github.com/getgrav/grav) inherited theme based on the [Bootstrap4](https://github.com/trilbymedia/grav-theme-bootstrap4) theme. In addition for built-in support for the Git Sync Plugin, a 'Chromeless' display mode (via the URL parameter `chromeless:true`) is provided to better embed Grav page content into other systems (i.e. LMS).
 
 # Installation
 
